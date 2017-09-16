@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0;
+}
+ul li {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+ul li:nth-child(1){
+background-color: red;
+}
+ul li:nth-child(2){
+background-color: blue;
+}
+ul li:nth-child(3){
+background-color: yellow;
+}
+ul li:nth-child(4){
+background-color: green;
+}
+
+.tab-pane{
+  color:#fff!important;
+}
+.tab-pane:nth-child(1){
+  background-color: red;
+}
+.tab-pane:nth-child(2){
+  background-color: blue;
+}
+.tab-pane:nth-child(3){
+  background-color: yellow;
+}
+.tab-pane:nth-child(4){
+  background-color: green;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: transparent!important;
+    border: 0px solid #ddd!important;
+    border-bottom-color: transparent!important;
+}
+button {
+  color: #fff !important;
+  display: flex!important;
+  margin: 0 auto;
+}
+
+.pink {
+  background-color: pink;
+}
+  
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 3px solid white;
+      background-color: pink;
+}     
+
+.color-picker input{
+      padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    font-size: 25px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+.color-picker input span{
+      padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    font-size: 25px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff!important;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}

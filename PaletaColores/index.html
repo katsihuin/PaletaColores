@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Paleta de Colores</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body data-spy="scroll" data-target="#navigation">
+  <div class="tab-content">
+      <div role="tabpanel" class="tab-pane fade in active" id="home">Red</div>
+      <div role="tabpanel" class="tab-pane fade" id="profile">Blue</div>
+      <div role="tabpanel" class="tab-pane fade" id="messages">Yellow</div>
+      <div role="tabpanel" class="tab-pane fade" id="settings">Green</div>
+  </div>
+  <ul class="nav nav-tabs" role="tablist">
+      <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"></a>
+
+      </li>
+      <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"></a>
+
+      </li>
+      <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"></a>
+
+      </li>
+      <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab"></a>
+
+      </li>
+  </ul>
+  <div class="color-picker">
+    <input type="color" value="#ffffff"><span>Escoge un Color</span></input>
+    <button type="button" class="btn btn-success">Agrega Elemento</button>
+  </div>
+  <section>
+    <div class="picked-color">
+      <ul></ul>
+    </div>
+  </section>
+
+</div>
+
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>
